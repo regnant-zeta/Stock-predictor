@@ -1,5 +1,7 @@
-pandas
-numpy
-scikit-learn
-yfinance
-matplotlib
+├── .github/text
+│   └── workflows/
+│       └── python-tests.yml  # For automated GitHub action testing
+├── model.py                  # Main executable script
+├── test_model.py             # Test suite files
+├── requirements.txt          # Dependencies file (numpy, pandas, yfinance, scikit-learn, pytest)
+└── README.md                 # Explanatory portfolio documentation
